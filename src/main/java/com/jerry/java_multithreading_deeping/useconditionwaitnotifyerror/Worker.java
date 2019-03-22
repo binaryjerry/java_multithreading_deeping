@@ -18,6 +18,7 @@ public class Worker {
             e.printStackTrace();
         }finally {
             lock.unlock();
+            System.out.println("测试提交");
             System.out.println("2");
         }
     }
